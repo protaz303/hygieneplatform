@@ -25,7 +25,9 @@
             <p>If you have any questions or need further information, feel free to reach out to us using the form below!</p>
 
             <!-- Contact Form with mailto for email submission -->
-            <form action="mailto:rahelmartin454@gmail.com" method="POST" enctype="multipart/form-data" name="contactForm" onsubmit="return validateForm()">
+                <form class="contact-form" action="https://formsubmit.co/rahelmartin454@gmail.com" method="POST">
+            	<input type="hidden" name="_next" value="https://protaz303.github.io/hygieneplatform/index.html">
+                <input type="hidden" name="_captcha" value="false">
                 <label for="name">Full Name:</label>
                 <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
 
